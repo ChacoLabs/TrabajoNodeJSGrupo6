@@ -117,9 +117,6 @@ header{
 }
 
 
-
-
-
 main{
     height: 1000px;
     width: 100%;
@@ -277,6 +274,7 @@ form button{
     display: flex;
     flex-direction: column;
 }
+
 p {
     height: 40px;
     border: 0;
@@ -286,6 +284,13 @@ p {
     background: #CBCBCB;
     font-size: 15px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    #gateway {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 .Ingresar {
     
