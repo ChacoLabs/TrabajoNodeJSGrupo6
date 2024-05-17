@@ -286,6 +286,11 @@ p {
     border-radius: 10px;
 }
 
+.uploadDNI {
+    height: 100px;
+}
+
+
 @media screen and (max-width: 500px) {
     #gateway {
         width: 100%;
