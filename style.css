@@ -36,7 +36,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
-    background-color: #11101b;
+    background-color: #12395D;
     color: #fefefe;
     position: relative;
     z-index: 1000;
@@ -207,7 +207,7 @@ main{
     position: left;
     font-size: 25px;
 }
-h2{
+/* h2{
     padding: 10px;
     border: 5px solid black;
     text-align: center;
@@ -215,7 +215,7 @@ h2{
     color: #050504;
     background-color: blue;
     font-size: 35px;
-}
+} */
 #queHacemos {
     text-align: center;
     margin-top: 70px;
@@ -229,10 +229,10 @@ width: 100%;
 background-color: #CBCBCB;
 }
 form {
-    background-color: blue;
+   
     padding: 15px;
     height: 450px;
-    width: 50%;
+    
     display: flex;
     flex-direction: column;
 }
@@ -242,17 +242,21 @@ form {
     margin-bottom: 15px;
 }
 form input, form textarea{
-    border: 0;
+    border-style: solid;
+    border-color: #7db0de;
     margin: 10px;
     padding: 15px;
     outline: none;
-    background: #CBCBCB;
     font-size: 15px;
     border-radius: 30px;
+    
+}
+
+.form input::placeholder {
+    color: #050504;
 }
 form button{
-    background: blue;
-    color: whitesmoke;
+   
     border-radius: 30px;
     width: 130px;
     margin: 20px;
@@ -300,7 +304,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('fondogeometric.jpg') no-repeat;
+   
     background-position: center;
     
 }
@@ -308,9 +312,10 @@ p {
     border-radius: 10px;
     padding: 30px 40px;
     background-color: transparent;
-    border: 5px solid rgba(255, 255, 255, .2);
+    border: 5px solid rgba(12, 12, 12, 0.2);
     backdrop-filter: blur(7px);
     box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    
 }
 .Ingresar h1{
     padding-top: 15;
@@ -318,6 +323,9 @@ p {
     text-align: center;
     background-color: transparent;
     color: #050504;
+    text-decoration-line: underline;
+    text-decoration-color: #7db0de;
+
     
 }
 
@@ -327,7 +335,7 @@ p {
 }
 
 .input-ingresar input {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 18px;
 }
@@ -338,15 +346,15 @@ p {
 
 .Ingresar .btn-ingresar{
     width: auto;
-    background-color: #fff;
+    background-color: #12395D;
     border:none;
     outline: none;
     border-radius: 40px;
     font-size: 16px;
-    color: #050504;
+    color: #fff;
     font-weight: 600;
     padding: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .btn-ingresar:hover{
@@ -362,7 +370,7 @@ p {
 }
 
 .link-registro span a{
-    color:#050504;
+    color:#12395D;
     text-decoration: none;
     font-weight: 600;
 }
@@ -392,5 +400,66 @@ p {
     text-align: center;
     font-size: 30px;
     color: #CBCBCB;
+}
+
+/* SECCION FORMULARIO CONTACTO */
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+
+.wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.warp-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.wrap-text-column h3{
+    padding: 2rem 0;
+    color: #050504;
+}
+
+section.two-column-section.form{
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+}
+
+.form input, .form textarea{
+
+    display: flex;
+    line-height: 1.75rem;
+    width: 100%;
+    border: 1.5px solid #7db0de;
+    
+}
+
+.form textarea{
+    min-height: 100px;
+}
+
+.btn-contacto{
+    
+    background-color: #12395D;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px;
+    margin-left: 80px;
+    
+  
 }
 
