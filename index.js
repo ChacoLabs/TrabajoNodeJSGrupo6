@@ -5,7 +5,8 @@ function validarFormulario() {
     let adress = document.getElementById('adress').value;
     let gender = document.querySelector('input[name="gender"]:checked');
     let gateway = document.getElementById('gateway').value;
-    if (name === '' || email === '' || number === '' || adress === '' || gender === null || gateway === '') {
+    let imagen = document.querySelector('.uploadDNI input[type="file"]').files[0];
+    if (name === '' || email === '' || number === '' || adress === '' || gender === null || gateway === '' || !imagen) {
         alert('Por favor, complete todos los campos.');
     } else {
         alert('Sera contactado a la brevedad.');
