@@ -158,6 +158,20 @@ header{
         display: block;
     }
 }
+.uploadDNI {
+    height: 100px;
+}
+@media (max-width: 550px) {
+    .uploadDNI {
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .uploadDNI input[type="file"] {
+        margin-top: 5px;
+        width: 50%;
+    }
+}
 .gallery1 {
     height: 500px;
     display: flex;
