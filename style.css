@@ -294,13 +294,26 @@ p {
     height: 100px;
 }
 
-
-@media screen and (max-width: 500px) {
-    #gateway {
-        width: 100%;
-        margin-bottom: 10px;
+@media (max-width: 480px) {
+    .uploadDNI {
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
     }
 }
+
+@media (max-width: 550px) {
+    .uploadDNI {
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .uploadDNI input[type="file"] {
+        margin-top: 5px;
+        width: 50%;
+    }
+}
+
 .Ingresar {
     
     padding: 30px;

@@ -34,7 +34,7 @@
                 <input type="number" name="number" id="number" placeholder="Telefono o Celular">
                 <input type="adrees" name="adress" id="adress" placeholder="Dirección">
                 <p>
-                    <label for="gender">Genero:</label>
+                    <label for="gender">Ingrese Genero:</label>
                     <input type="radio" name="gender" id="genderHombre" value="hombre" checked> Hombre
                     <input type="radio" name="gender" id="genderMujer" value="mujer"> Mujer
                     <input type="radio" name="gender" id="genderOtro" value="otro"> Otro
@@ -49,7 +49,8 @@
                     </select>
                 </p>
                 <p class="uploadDNI">
-                        <input type="file" name="imagen" accept="image/*" placeholder="">
+                        <label for="imagen">Adjunte foto DNI.</label>
+                        <input class="DNI" type="file" name="imagen" accept="image/*" placeholder="">
                 </p>
                 <button type="button" onclick="validarFormulario()">Enviar</button>
                 </form>
