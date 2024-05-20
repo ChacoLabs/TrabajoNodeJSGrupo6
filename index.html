@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
+    <!-- HEADER -->
     <header >
         <div class="navbar">
             <div class="logo">
-                <a href="index.html"><img src="logoclub.svg" alt="El Club"  height="40px"></a>
-                
+                <a href="index.html"><img src="logo-atletismo.png" alt="El Club"  height="50px"></a>
             </div>
             <div class="menu-toggle">
                 <span></span>
@@ -34,92 +35,140 @@
             </div>
         </div>
     </header>
-    
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="childplay.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+    <!-- MAIN -->
+    <main>
+      <div class="d-flex justify-content-center align-items-center vh-100" >
+        <div class="card" style="width: 70rem;">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="childfutbol.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="imagenMain.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    <section id="seccion-contacto" class="section two-column-section form">
-        <div class="wrap-title-section">
-            <h2>Formulario de Contacto</h2>
-        </div>
-
-        <div class="wrap-two-column">
-            
-            <div class="warp-img_two-column">
-                <div class="wrap-text-column">
-                  
-                    <form action="" method="POST">
-                      
-                        <input  type="text" name="name"  placeholder="Nombre y apellido" required>
-                        <input class="input-contacto" type="email" name="email" placeholder="Email" required>
-                        <input class="input-contacto" type="number" name="number"  placeholder="Telefono o Celular" required>
-                        <input class="input-contacto" type="text" name="asunto" placeholder="Asunto" required>
-                        <textarea name="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
-                        <button class="btn-contacto" type="submit">Enviar</button>
-                    </form>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="carrousel-tenis1.png" class="d-block w-100" alt="Imagen Tenis">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Conocé nuestras actividades</h5>
+                  <a href="actividades.html" type="button" class="btn-carousel">Ver actividades</a>
+                 
                 </div>
+              </div>
+              <div class="carousel-item">
+                <img src="carousel-futbol1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Torneos de fútbol y más</h5>
+                  <a href="actividades.html" type="button" class="btn-carousel">Ver actividades</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="carousel-piscina1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Asociate y disfrutá de nuestras instalaciones con tu familia</h5>
+                  <a href="registry.html" type="button" class="btn-carousel">Asociarse</a>
+                </div>
+              </div>
             </div>
-            
-            <div class="warp-img_two-column">
-                <img src="imagenMain.jpg" alt="">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
         </div>
+      </div>
+      
+  
+      
+  
+      <section id="seccion-contacto" class="section two-column-section form">
+          <div class="wrap-title-section">
+              <h2>Formulario de Contacto</h2>
+          </div>
+  
+          <div class="wrap-two-column">
+              
+              <div class="warp-img_two-column">
+                  <div class="wrap-text-column">
+                    
+                      <form action="" method="POST">
+                        
+                          <input  type="text" name="name"  placeholder="Nombre y apellido" required>
+                          <input class="input-contacto" type="email" name="email" placeholder="Email" required>
+                          <input class="input-contacto" type="number" name="number"  placeholder="Telefono o Celular" required>
+                          <input class="input-contacto" type="text" name="asunto" placeholder="Asunto" required>
+                          <textarea class="input-contacto" name="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                          <button class="btn-contacto" type="submit">Enviar</button>
+                      </form>
+                  </div>
+              </div>
+              
+              <div class="warp-img_two-column">
+                  <img src="imagenMain.jpg" alt="">
+              </div>
+          </div>
+  
+      </section> 
+    </main>
 
-    </section> 
     
-    <!-- <footer>
-        <h2 id="formulario">Contacto</h2>
-        <div>
-            <form action="" method="POST">
-                <input type="text" name="name"  placeholder="Nombre y apellido" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="number" name="number"  placeholder="Telefono o Celular" required>
-                <textarea name="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
-                <button id = "envCorreo" type="submit">Enviar mensaje</button>
-            </form>
-        </div> 
-        <div class="copyright"><p>Todos los derechos reservados@</p>
-        <p><a href="https://www.instagram.com/" target="_blank">
-            <i class="fa-brands fa-instagram-square"></i></a>
-          </p>
-        </div>
-    </footer> -->
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a class="icon" href="#"><i class="fi fi-brands-youtube"></i></a>
+        </li>
+        <li class="icon-elem">
+          <a  class="icon" href="#"><i class="fi fi-brands-instagram"></i></a>
+          
+        </li>
+        <li class="icon-elem">
+          <a class="icon" href="#"><i class="fi fi-brands-whatsapp"></i></a>
+          
+        </li>
+        <li class="icon-elem">
+          <a class="icon" href="#"><i class="fi fi-brands-facebook"></i></a>
+          
+        </li>
+      </ul>
+      
+      <ul class="menu-footer">
+        <li class="menu-elem">
+          <a class="menu-icon" href="#">
+            Equipo
+          </a>
+        </li>
+        <li class="menu-elem">
+          <a class="menu-icon" href="#">
+            Instalaciones
+          </a>
+        </li>
+        <li class="menu-elem">
+          <a class="menu-icon" href="#">
+            Contacto
+          </a>
+        </li>
+        <li class="menu-elem">
+          <a class="menu-icon" href="#">
+            Video
+          </a>
+        </li>
+        <li class="menu-elem">
+          <a class="menu-icon" href="#">
+            Sobre Nosotros
+          </a>
+        </li>
+      </ul>
+      <p class="text-derechos">Todos los derechos reservados</p>
+
+    </footer>
+    
     
         
     <script src="navbar.js"></script>

@@ -35,7 +35,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: #12395D;
     color: #fefefe;
     position: relative;
@@ -117,13 +118,7 @@ header{
 }
 
 
-main{
-    height: 1000px;
-    width: 100%;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
+
 
 
 @media screen and (max-width: 480px) {
@@ -206,6 +201,14 @@ main{
     color: white;
     position: left;
     font-size: 25px;
+    height: 40px;
+    border: 0;
+    margin: 10px;
+    padding: 15px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #7db0de;
 }
 /* h2{
     padding: 10px;
@@ -221,13 +224,84 @@ main{
     margin-top: 70px;
     margin-left: 250px;
 }
+
+/* FOOTER */
 footer{
-display: flex;
-flex-flow: column;
-height: 660px;
-width: 100%;
-background-color: #CBCBCB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: #12395D;
+    min-height: 100px;
+    
 }
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.icon-elem{
+    list-style: none;
+}
+
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transform: 0.5s;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    list-style: none;
+}
+
+.menu-elem{
+    list-style: none;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover{
+    opacity: 1;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
 form {
    
     padding: 15px;
@@ -263,31 +337,67 @@ form button{
 }
 .Registro{
     background-color: white;
-    padding: 15px;
-    height: 600px;
-    width: 70%;
+    padding: 30px;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .formRegistry{
-    background-color: blue;
-    padding: 30px;
-    height: 800px;
-    width: 100%;
+  
+ 
+    height: auto;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 5px solid rgba(12, 12, 12, 0.2);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    
+}
+.Registro .btn-registro{
+    width: 30%;
+    background-color: #12395D;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    align-items: center;
+    font-weight: 600;
+    padding: 15px;
+    margin-left: 52px;
+    margin-left: 350px;
+}
+.Registro .label-genero{
+    margin: 15px;
+}
+
+.Registro .label-formaspago{
+    margin: 15px;
+}
+.Registro .radio-button{
+    height: 30px;
+    font-size: 16px;
+    
+
 }
 
 p {
-    height: 40px;
+   /*  height: 40px;
     border: 0;
     margin: 10px;
     padding: 15px;
     outline: none;
-    background: #CBCBCB;
     font-size: 15px;
     border-radius: 10px;
+    background: #CBCBCB; */
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -298,8 +408,8 @@ p {
 }
 .Ingresar {
     
-    padding: 30px;
-    height: 520px;
+    padding: 50px;
+    height: auto;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -310,6 +420,8 @@ p {
 }
 .form-ingresar{
     border-radius: 10px;
+    width: 30%;
+    height: auto;
     padding: 30px 40px;
     background-color: transparent;
     border: 5px solid rgba(12, 12, 12, 0.2);
@@ -354,7 +466,7 @@ p {
     color: #fff;
     font-weight: 600;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .btn-ingresar:hover{
@@ -463,3 +575,15 @@ section.two-column-section.form{
   
 }
 
+.btn-carousel{
+    background-color: #7db0de;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    
+}
