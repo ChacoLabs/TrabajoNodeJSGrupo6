@@ -33,8 +33,7 @@
         <div class="wrap-title-section">
             <h2>Formulario de Registro</h2>
         </div>
-        
-            <div class="Registro">
+                <div class="Registro">
                 <form class="formRegistry" action="" method="POST" onsubmit="return validarFormulario()">
                     <input type="text" name="name" id="name" placeholder="Nombre y apellido">
                     <input type="email" name="email" id="email" placeholder="Email">
@@ -47,7 +46,6 @@
                         <input  type="radio" name="gender" id="genderHombre" value="hombre" checked> Hombre
                         <input type="radio" name="gender" id="genderMujer" value="mujer"> Mujer
                         <input type="radio" name="gender" id="genderOtro" value="otro"> Otro
-                    </label>
                         
                     <label class="label-formaspago" for="gateway">Formas de pago:</label>
                         <select name="gateway" id="gateway">
@@ -56,12 +54,6 @@
                             <option value="Transfer">Transferencia</option>
                             <option value="Cash">Efectivo</option>
                         </select>
-                        <p class="uploadDNI">
-                            <label for="imagen">Adjunte foto DNI.</label>
-                            <input class="DNI" type="file" name="imagen" accept="image/*" placeholder="">
-                    </p>
-                    
-                    
                     <button  type="submit" class="btn-registro" onclick="validarFormulario()">Registrarse</button>
                     </form>
             </div> 
