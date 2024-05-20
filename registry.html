@@ -48,7 +48,8 @@
                         <input type="radio" name="gender" id="genderMujer" value="mujer"> Mujer
                         <input type="radio" name="gender" id="genderOtro" value="otro"> Otro
                     </label>
-                        
+                    
+                    
                     <label class="label-formaspago" for="gateway">Formas de pago:</label>
                         <select name="gateway" id="gateway">
                             <option class="select-opcion" value="">Selecciona una forma de pago</option>
@@ -56,8 +57,17 @@
                             <option value="Transfer">Transferencia</option>
                             <option value="Cash">Efectivo</option>
                         </select>
+                    <label class="label-genero" for="file">Foto/Imagen:
+                          <input type="file" name="input-file" class="input-file">
+                    </label>
                     
-                    <button  type="submit" class="btn-registro" onclick="validarFormulario()">Registrarse</button>
+                    
+                    
+                  
+                    <div class="btn-formregistro">
+                      <button  type="submit" class="btn-registro" onclick="validarFormulario()">Registrarse</button>
+                    </div>
+                    
                     </form>
             </div> 
     </main>
