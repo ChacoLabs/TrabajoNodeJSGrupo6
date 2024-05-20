@@ -207,15 +207,6 @@ main{
     position: left;
     font-size: 25px;
 }
-/* h2{
-    padding: 10px;
-    border: 5px solid black;
-    text-align: center;
-    font-variant: small-caps;
-    color: #050504;
-    background-color: blue;
-    font-size: 35px;
-} */
 #queHacemos {
     text-align: center;
     margin-top: 70px;
@@ -249,14 +240,11 @@ form input, form textarea{
     outline: none;
     font-size: 15px;
     border-radius: 30px;
-    
 }
-
 .form input::placeholder {
     color: #050504;
 }
 form button{
-   
     border-radius: 30px;
     width: 130px;
     margin: 20px;
@@ -290,18 +278,17 @@ p {
     border-radius: 10px;
 }
 
-.uploadDNI {
-    height: 100px;
-}
-
-@media (max-width: 480px) {
-    .uploadDNI {
+@media (max-width: 592px) {
+    .gender {
+        display: flex column;
         margin: 10px;
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
     }
 }
-
+.uploadDNI {
+    height: 100px;
+}
 @media (max-width: 550px) {
     .uploadDNI {
         margin: 10px;
@@ -313,18 +300,14 @@ p {
         width: 50%;
     }
 }
-
 .Ingresar {
-    
     padding: 30px;
     height: 520px;
     width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     background-position: center;
-    
 }
 .form-ingresar{
     border-radius: 10px;
@@ -333,7 +316,6 @@ p {
     border: 5px solid rgba(12, 12, 12, 0.2);
     backdrop-filter: blur(7px);
     box-shadow: 0 0 10px rgb(0, 0, 0, .2);
-    
 }
 .Ingresar h1{
     padding-top: 15;
@@ -343,25 +325,19 @@ p {
     color: #050504;
     text-decoration-line: underline;
     text-decoration-color: #7db0de;
-
-    
 }
-
 .Ingresar input-ingresar{
     width: 100%;
     height: 50px;
 }
-
 .input-ingresar input {
     width: 80%;
     height: auto;
     margin: 18px;
 }
-
 .input-ingresar input::placeholder {
     color: #050504;
 }
-
 .Ingresar .btn-ingresar{
     width: auto;
     background-color: #12395D;
@@ -374,11 +350,9 @@ p {
     padding: 20px;
     margin-left: 30px;
 }
-
 .btn-ingresar:hover{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .link-registro{
     background-color: transparent;
     font-size: 14.5px;
@@ -386,13 +360,11 @@ p {
     text-align: center;
     height: auto;
 }
-
 .link-registro span a{
     color:#12395D;
     text-decoration: none;
     font-weight: 600;
 }
-
 .link-registro span a:hover {
     text-decoration: underline;
 }
@@ -420,22 +392,17 @@ p {
     font-size: 30px;
     color: #CBCBCB;
 }
-
-/* SECCION FORMULARIO CONTACTO */
-
 .wrap-title-section{
     display: flex;
     justify-content: center;
     margin: 3rem 1rem;
 }
-
 .wrap-two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1300px;
     margin: 0 auto;
 }
-
 .warp-img_two-column{
     padding: 2rem;
     display: flex;
@@ -443,32 +410,24 @@ p {
     align-items: center;
     flex-flow: column;
 }
-
 .wrap-text-column h3{
     padding: 2rem 0;
     color: #050504;
 }
-
 section.two-column-section.form{
     background-color: #f2f2f2;
     padding: 3rem 0;
 }
-
 .form input, .form textarea{
-
     display: flex;
     line-height: 1.75rem;
     width: 100%;
     border: 1.5px solid #7db0de;
-    
 }
-
 .form textarea{
     min-height: 100px;
 }
-
 .btn-contacto{
-    
     background-color: #12395D;
     border:none;
     outline: none;
@@ -478,7 +437,5 @@ section.two-column-section.form{
     font-weight: 600;
     padding: 15px;
     margin-left: 80px;
-    
-  
 }
 
