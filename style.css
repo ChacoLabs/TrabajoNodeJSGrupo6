@@ -158,7 +158,20 @@ header{
         display: block;
     }
 }
-
+.uploadDNI {
+    height: 100px;
+}
+@media (max-width: 550px) {
+    .uploadDNI {
+        margin: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .uploadDNI input[type="file"] {
+        margin-top: 5px;
+        width: 50%;
+    }
+}
 .gallery1 {
     height: 500px;
     display: flex;
@@ -304,8 +317,10 @@ footer{
 }
 
 form {
+   
     padding: 15px;
     height: 450px;
+    
     display: flex;
     flex-direction: column;
 }
@@ -322,11 +337,14 @@ form input, form textarea{
     outline: none;
     font-size: 15px;
     border-radius: 30px;
+    
 }
+
 .form input::placeholder {
     color: #050504;
 }
 form button{
+   
     border-radius: 30px;
     width: 130px;
     margin: 20px;
@@ -341,10 +359,13 @@ form button{
     align-items: center;
 }
 .formRegistry{
+  
+ 
     height: auto;
     width: 80%;
     display: flex;
     flex-direction: column;
+    
     border-radius: 10px;
     padding: 30px 40px;
     background-color: transparent;
@@ -352,6 +373,9 @@ form button{
     backdrop-filter: blur(7px);
     box-shadow: 0 0 10px rgb(0, 0, 0, .2);
     
+}
+.btn-formregistro{
+    text-align: center;
 }
 .Registro .btn-registro{
     width: 30%;
@@ -364,8 +388,8 @@ form button{
     align-items: center;
     font-weight: 600;
     padding: 15px;
-    margin-left: 52px;
-    margin-left: 350px;
+   
+   
 }
 .Registro .label-genero{
     margin: 15px;
@@ -579,4 +603,8 @@ section.two-column-section.form{
     padding: 10px;
     text-decoration: none;
     
+}
+
+.input-file{
+    border-style: none;
 }
