@@ -30,37 +30,38 @@
     </header>
     <main>
         <div class="wrap-title-section">
-            <h2>Formulario de Registro</h2>
-            <div class="Registro">
-              <form class="formRegistry" action="." method="POST" onsubmit="return validarFormulario()">
-                  <input type="text" name="name" id="name" placeholder="Nombre y apellido">
-                  <input type="email" name="email" id="email" placeholder="Email">
-                  <input type="number" name="number" id="number" placeholder="Teléfono o Celular">
-                  <input type="text" name="adress" id="adress" placeholder="Dirección">
-                  
-                  <label class="label-genero">
-                      Género:
-                      <input type="radio" name="gender" id="genderHombre" value="hombre" checked> Hombre
-                      <input type="radio" name="gender" id="genderMujer" value="mujer"> Mujer
-                      <input type="radio" name="gender" id="genderOtro" value="otro"> Otro
-                  </label>
-                                          
-                  <label class="label-formaspago" for="gateway">Formas de pago:</label>
-                  <select name="gateway" id="gateway">
-                      <option class="select-opcion" value="">Selecciona una forma de pago</option>
-                      <option value="CreditCard">Tarjeta de crédito</option>
-                      <option value="Transfer">Transferencia</option>
-                      <option value="Cash">Efectivo</option>
-                  </select>
-      
-                  <label class="label-DNI" for="inputFile">Foto DNI: </label>
-                      <input type="file" name="inputFile" id="inputFile" class="input-file">
-      
-                  <div class="btn-formregistro">
-                      <button type="submit" class="btn-registro">Enviar</button>
-                  </div>
-                </div>
-              </form>
+          <h2>Formulario de Registro</h2>
+<div class="Registro">
+    <form class="formRegistry" action="." method="POST" onsubmit="return validarFormulario()">
+        <input type="text" name="name" id="name" placeholder="Nombre y apellido">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="number" name="number" id="number" placeholder="Teléfono o Celular">
+        <input type="text" name="adress" id="adress" placeholder="Dirección">
+        
+        <label class="label-genero">Género:</label>
+        <div>
+            <input type="radio" name="gender" id="genderHombre" value="hombre" checked> <label for="genderHombre">Hombre</label>
+            <input type="radio" name="gender" id="genderMujer" value="mujer"> <label for="genderMujer">Mujer</label>
+            <input type="radio" name="gender" id="genderOtro" value="otro"> <label for="genderOtro">Otro</label>
+        </div>
+        
+        <label class="label-formaspago" for="gateway">Formas de pago:</label>
+        <select name="gateway" id="gateway">
+            <option class="select-opcion" value="">Selecciona una forma de pago</option>
+            <option value="CreditCard">Tarjeta de crédito</option>
+            <option value="Transfer">Transferencia</option>
+            <option value="Cash">Efectivo</option>
+        </select>
+
+        <label class="label-DNI" for="inputFile">Foto DNI: </label>
+        <input type="file" name="inputFile" id="inputFile" class="input-file">
+
+        <div class="btn-formregistro">
+            <button type="submit" class="btn-registro">Enviar</button>
+        </div>
+    </form>
+</div>
+
           </div>
     </main>
     <footer class="footer">
