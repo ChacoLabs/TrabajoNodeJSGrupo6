@@ -383,7 +383,7 @@ p {
         margin-bottom: 10px;
     }
 }
-.Ingresar {
+/*.Ingresar {
     padding: 50px;
     height: auto;
     width: auto;
@@ -483,6 +483,141 @@ p {
     text-align: center;
     font-size: 30px;
     color: #CBCBCB;
+}*/
+.Ingresar {
+    padding: 50px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+}
+
+.form-ingresar {
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 5px solid rgba(12, 12, 12, 0.2);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+}
+
+.Ingresar h1 {
+    padding-top: 15px;
+    font-size: 36px;
+    text-align: center;
+    background-color: transparent;
+    color: #050504;
+    text-decoration-line: underline;
+    text-decoration-color: #7db0de;
+}
+
+.input-ingresar {
+    width: 100%;
+    height: 50px;
+}
+
+.input-ingresar input {
+    width: 80%;
+    height: auto;
+    margin: 18px;
+    padding: 10px;
+}
+
+.input-ingresar input::placeholder {
+    color: #050504;
+}
+
+.Ingresar .btn-ingresar {
+    width: auto;
+    background-color: #12395D;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.btn-ingresar:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link-registro {
+    background-color: transparent;
+    font-size: 14.5px;
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+}
+
+.link-registro span a {
+    color: #12395D;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-registro span a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .form-ingresar {
+        width: 40%;
+    }
+
+    .input-ingresar input {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-ingresar {
+        width: 60%;
+        padding: 20px 30px;
+    }
+
+    .Ingresar h1 {
+        font-size: 32px;
+    }
+
+    .input-ingresar input {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .Ingresar .btn-ingresar {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-ingresar {
+        width: 80%;
+        padding: 15px 20px;
+    }
+
+    .Ingresar h1 {
+        font-size: 28px;
+    }
+
+    .input-ingresar input {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .Ingresar .btn-ingresar {
+        padding: 10px;
+    }
+
+    .link-registro {
+        font-size: 12px;
+    }
 }
 
 /* SECCION FORMULARIO CONTACTO */
