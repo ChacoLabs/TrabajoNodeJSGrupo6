@@ -92,7 +92,7 @@ header{
     .menu {
         display: none; 
         flex-direction: column;
-        background-color: #11101b;
+        background-color: #12395D;
         position: absolute;
         top: 60px; 
         left: 0;
@@ -101,10 +101,13 @@ header{
     .menu a {
         margin: 0;
         padding: 10px 20px;
-        border-bottom: 1px solid #11101b;
     }
     .menu.active {
         display: flex; 
+    }
+    .menu nav {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -326,7 +329,7 @@ form button{
 }
 .formRegistry{
     height: auto;
-    width: 80%;
+    width: auto;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
