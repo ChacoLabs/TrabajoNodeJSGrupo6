@@ -438,6 +438,42 @@ p {
     color: white;
 }
 
+
+@media (max-width: 1200px) {
+    .formRegistry {
+        width: 70%;
+    }
+    .Registro .btn-registro {
+        width: 40%;
+    }
+}
+
+@media (max-width: 780px) {
+    .formRegistry {
+        width: 90%;
+    }
+    .Registro .btn-registro {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .formRegistry {
+        width: 100%;
+        padding: 20px;
+    }
+    .Registro .btn-registro {
+        width: 60%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .wrap-title-section h2 {
+        display: none;
+    }
+}
 @media screen and (max-width: 500px) {
     #gateway {
         width: 100%;
