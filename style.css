@@ -146,6 +146,75 @@ header{
         display: block;
     }
 }
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.form-ingresar .form-label {
+    font-weight: bold;
+}
+
+.form-ingresar .form-control {
+    margin-bottom: 10px;
+    border-radius: 0.25rem;
+}
+
+.form-ingresar .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form-ingresar .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-ingresar .mt-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-ingresar .mt-3 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-ingresar .mt-3 a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 10px;
+    }
+}
 .gallery1 {
     height: 500px;
     display: flex;
@@ -283,7 +352,6 @@ footer{
 }
 
 form {
-   
     padding: 15px;
     height: 450px;
     
@@ -399,141 +467,6 @@ p {
     text-align: center;
     font-size: 30px;
     color: #CBCBCB;
-}
-.Ingresar {
-    padding: 50px;
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-position: center;
-}
-
-.form-ingresar {
-    border-radius: 10px;
-    width: 30%;
-    height: auto;
-    padding: 30px 40px;
-    background-color: transparent;
-    border: 5px solid rgba(12, 12, 12, 0.2);
-    backdrop-filter: blur(7px);
-    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
-}
-
-.Ingresar h1 {
-    padding-top: 15px;
-    font-size: 36px;
-    text-align: center;
-    background-color: transparent;
-    color: #050504;
-    text-decoration-line: underline;
-    text-decoration-color: #7db0de;
-}
-
-.input-ingresar {
-    width: 100%;
-    height: 50px;
-}
-
-.input-ingresar input {
-    width: 80%;
-    height: auto;
-    margin: 18px;
-    padding: 10px;
-}
-
-.input-ingresar input::placeholder {
-    color: #050504;
-}
-
-.Ingresar .btn-ingresar {
-    width: auto;
-    background-color: #12395D;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 600;
-    padding: 20px;
-    margin-left: 20px;
-}
-
-.btn-ingresar:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.link-registro {
-    background-color: transparent;
-    font-size: 14.5px;
-    margin-top: 20px;
-    text-align: center;
-    height: auto;
-}
-
-.link-registro span a {
-    color: #12395D;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.link-registro span a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 1200px) {
-    .form-ingresar {
-        width: 40%;
-    }
-
-    .input-ingresar input {
-        width: 90%;
-    }
-}
-
-@media (max-width: 768px) {
-    .form-ingresar {
-        width: 60%;
-        padding: 20px 30px;
-    }
-
-    .Ingresar h1 {
-        font-size: 32px;
-    }
-
-    .input-ingresar input {
-        width: 100%;
-        margin: 15px;
-    }
-
-    .Ingresar .btn-ingresar {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .form-ingresar {
-        width: 80%;
-        padding: 15px 20px;
-    }
-
-    .Ingresar h1 {
-        font-size: 28px;
-    }
-
-    .input-ingresar input {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .Ingresar .btn-ingresar {
-        padding: 10px;
-    }
-
-    .link-registro {
-        font-size: 12px;
-    }
 }
 
 
