@@ -203,7 +203,7 @@ header{
     text-decoration: underline;
 }
 
-/* Estilos Responsivos */
+
 @media (max-width: 768px) {
     .modal-dialog {
         margin: 20px;
