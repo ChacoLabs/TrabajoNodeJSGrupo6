@@ -25,9 +25,10 @@
             <div class="menu">
                 <nav>
                 
-                <a href="clientes.html">Ingresar</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Ingresar</a>
                 <a href="registry.html">Asociate</a>
                 <a href="actividades.html">Actividades</a>
+                <a href="Whoweare.html">Quienes Somos?</a>
                 <a href="#seccion-contacto">Contacto</a>
                 </nav>
                 
@@ -35,7 +36,7 @@
         </div>
     </header>
     <main>
-      <div class="d-flex justify-content-center align-items-center vh-100" >
+      <div class="d-flex justify-content-center align-items-center vh-50" >
         <div class="card" style="width: 70rem;">
           <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
@@ -79,10 +80,7 @@
           
         </div>
       </div>
-      
-  
-      
-  
+    </main> 
       <section id="seccion-contacto" class="section two-column-section form">
           <div class="wrap-title-section">
               <h2>Formulario de Contacto</h2>
@@ -111,9 +109,35 @@
           </div>
   
       </section> 
-    </main>
 
-    
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="loginModalLabel">Inicio de sesión</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form class="form-ingresar">
+                      <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" placeholder="Email" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="password" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Ingresar</button>
+                      <div class="mt-3">
+                          <span>No tienes cuenta? <a href="registry.html">Registrarse</a></span>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
   
     <footer class="footer">
       <a href="#" class="sube">
@@ -121,50 +145,24 @@
         </a>
       <ul class="social-icon">
         <li class="icon-elem">
-          <a class="icon" href="#"><i class="fi fi-brands-youtube"></i></a>
+          <a class="icon" href="https://www.youtube.com/"><i class="fi fi-brands-youtube"></i></a>
         </li>
         <li class="icon-elem">
-          <a  class="icon" href="#"><i class="fi fi-brands-instagram"></i></a>
+          <a  class="icon" href="https://www.instagram.com/"><i class="fi fi-brands-instagram"></i></a>
           
         </li>
         <li class="icon-elem">
-          <a class="icon" href="#"><i class="fi fi-brands-whatsapp"></i></a>
+          <a class="icon" href="https://web.whatsapp.com/"><i class="fi fi-brands-whatsapp"></i></a>
           
         </li>
         <li class="icon-elem">
-          <a class="icon" href="#"><i class="fi fi-brands-facebook"></i></a>
+          <a class="icon" href="https://es-la.facebook.com/"><i class="fi fi-brands-facebook"></i></a>
           
         </li>
       </ul>
       
-      <ul class="menu-footer">
-        <li class="menu-elem">
-          <a class="menu-icon" href="#">
-            Equipo
-          </a>
-        </li>
-        <li class="menu-elem">
-          <a class="menu-icon" href="#">
-            Instalaciones
-          </a>
-        </li>
-        <li class="menu-elem">
-          <a class="menu-icon" href="#">
-            Contacto
-          </a>
-        </li>
-        <li class="menu-elem">
-          <a class="menu-icon" href="#">
-            Video
-          </a>
-        </li>
-        <li class="menu-elem">
-          <a class="menu-icon" href="#">
-            Sobre Nosotros
-          </a>
-        </li>
-      </ul>
-      <p class="text-derechos">Todos los derechos reservados</p>
+      
+      <p class="text-derechos">@Todos los derechos reservados</p>
 
     </footer>
     
