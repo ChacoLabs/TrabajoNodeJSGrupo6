@@ -270,7 +270,7 @@ header{
 }
 
 .quienes-somos {
-    background-color: blue;
+    background-color: #12395D;
     color: white;
     font-family: 'Arial', sans-serif;
     font-size: 30px;
@@ -283,15 +283,6 @@ header{
     margin-top: 70px;
     margin-left: 250px;
 }
-
-/*.descriptions {
-    line-height: 30px; 
-    background-size: 1000px; 
-    background-position: center; 
-    background-attachment: fixed; 
-    font-weight: 800;
-
-}*/
 
 footer{
     position: relative;
